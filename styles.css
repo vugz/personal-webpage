@@ -138,6 +138,7 @@ header ul li {
   opacity: 1;
 }
 .index article {
+  font-weight: var(--thin);
   transition: ease-out;
   animation: enter 0.8s;
 }
@@ -198,6 +199,10 @@ svg {
 
   .index .greet {
     font-size: 1em;
+  }
+
+  .index article {
+    font-size: 0.6em;
   }
 
   footer p {
